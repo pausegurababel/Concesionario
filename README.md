@@ -1,16 +1,23 @@
-Mi código no está acabado y falta toda la lógica de gestion del concesionario, pero esto es lo que he podido hacer.
-En mi código he usado los siguientes principios SOLID.
-SINGLE RESPONSABILITY:
-· Cada clase tiene una responsabilidad única como Compra, Venta, Coche...
-OPEN/CLOSED:
-· CocheNuevoELectrico y CocheNuevoCombustion extienden de CocheNuevoy añaden comportamientos sin modificar la clase base.
-LISKOV:
-· Las subclases de Coche se pueden sustituir por Coche sin ocasionar problemas. 
-INTERFACES:
-· He usado las interfaces de Electrico y Combustion para diferenciar tipos de Coches. Tambien con MetodoPago.
-DEPENDENCIAS:
-· No estoy seguro de haber usado
+# Proyecto Concesionario
 
+Mi código no está acabado y falta toda la lógica de gestión del concesionario, pero esto es lo que he podido hacer. En mi código he usado los siguientes principios SOLID.
+
+## Principios SOLID Utilizados
+
+### SINGLE RESPONSABILITY
+- Cada clase tiene una responsabilidad única como `Compra`, `Venta`, `Coche`, etc.
+
+### OPEN/CLOSED
+- `CocheNuevoElectrico` y `CocheNuevoCombustion` extienden de `CocheNuevo` y añaden comportamientos sin modificar la clase base.
+
+### LISKOV
+- Las subclases de `Coche` se pueden sustituir por `Coche` sin ocasionar problemas.
+
+### INTERFACES
+- He usado las interfaces de `Electrico` y `Combustion` para diferenciar tipos de `Coches`. También con `MetodoPago`.
+
+### DEPENDENCIAS
+- No estoy seguro de haber usado
 
 ## Pendientes
 
